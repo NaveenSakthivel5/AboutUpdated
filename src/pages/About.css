@@ -1,0 +1,882 @@
+.about .layer-1 {
+  max-width: 133px;
+  height: 30px;
+
+}
+.about-contact {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center;
+}
+
+.about-link, .contact-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 20px; /* Adds space on both sides of the links */
+}
+
+.separator1 {
+  margin: 0 30px; /* Adds extra space between the separator and links */
+}
+
+.about-link::after, .contact-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.about-link:hover::after, .contact-link:hover::after {
+  width: 100%;
+}
+
+
+
+.about .about-contact {
+  margin: 2px 0 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about .container-6 {
+  margin: 0 82.3px 63px 87px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1284.7px;
+  box-sizing: border-box;
+}
+.about .rectangle-1577 {
+  background: #333333;
+  margin: 246.9px 0 82.3px 0px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1573 {
+  background: #1A1A1A;
+  margin-bottom: 159.8px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1576 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-1 {
+  margin-bottom:  30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  box-sizing: border-box;
+}
+.about .rectangle-1572 {
+  background: #1A1A1A;
+  margin-bottom: 156.5px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1575 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-10 {
+  margin: 87.1px 3.2px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1571 {
+  background: #333333;
+  margin: 0 3.2px 74.2px 0;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1574 {
+  background: #1A1A1A;
+  margin-left: 3.2px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-11 {
+  margin: 87.1px 0 82.3px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 82.3px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1570 {
+  background: #1A1A1A;
+  margin: 87.1px 6.5px 242.1px 0;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1568 {
+  background: #1A1A1A;
+  margin: 6.5px 0 322.8px 0;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1565 {
+  background: #373737;
+  margin-bottom: 0px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1566 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-9 {
+  margin: 6.5px 0 237.2px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1567 {
+  background: #1A1A1A;
+  margin-bottom: 75.8px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1569 {
+  background: #252525;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-8 {
+  margin: 6.5px 163px 161.4px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1564 {
+  background: #313131;
+  margin: 6.5px 6.5px 322.8px 0;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1562 {
+  background: #121212;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1561 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-4 {
+  margin: 79.1px 0px 164.6px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1563 {
+  background: #121212;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1560 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-3 {
+  margin: 0px 6.4px 243.7px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1559 {
+  background: #1A1A1A;
+  margin: 0 0px 329.2px 0;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1557 {
+  background: #373737;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1558 {
+  background: #1A1A1A;
+  margin-bottom: 74.2px;
+  align-self: flex-start;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1552 {
+  background: #1A1A1A;
+  margin: 0 6.5px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-7 {
+  margin-bottom: 83.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 158.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1555 {
+  background: #1A1A1A;
+  margin-bottom: 153.3px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1553 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container-5 {
+  margin: 85.5px 0 4.8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .rectangle-1556 {
+  background: #1A1A1A;
+  margin-bottom: 153.3px;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .rectangle-1554 {
+  background: #1A1A1A;
+  width: 79.1px;
+  height: 85.5px;
+}
+.about .container {
+  margin-bottom: 90.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-right: 12.2px;
+  font-family: 'FontJetbrains';
+  max-width: 300px;
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #FFDD33; 
+}
+
+.about .group-21 {
+  opacity: 0.5;
+  margin-bottom: 290.3px;
+  display: flex;
+  flex-direction: row;
+  width: 100%; /* Avoid fixed width */
+  max-width: 1280px; /* Limit the maximum width */
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.about .rectangle-1550 {
+  border: 2px solid #FFFFFF;
+  margin-top: 0px;
+  width: 10px;
+  height: 10px;
+}
+.about .rectangle-1549 {
+  border: 2px solid #FFFFFF;
+  width: 10px;
+  height: 10px;
+}
+.about .rectangle-1548 {
+  border: 2px solid #FFFFFF;
+  width: 10px;
+  height: 10px;
+}
+.about .group-18 {
+  margin: 350px auto 0; /* Center it horizontally and add some space above */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px; /* Adjust width if needed */
+  box-sizing: border-box;
+  position: relative; /* Ensure it's in the normal document flow */
+}
+
+.about .container-1 {
+  margin-right: 12.2px;
+  overflow-wrap: break-word;
+  font-family: 'FontJetbrains';
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #FFDD33;
+}
+.about .who-we-are {
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #FFDD33;
+}
+.about .group-49 {
+  margin: 90px 0 0 0 ;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  box-sizing: border-box;
+}
+.about .innovators {
+  margin: 0 1px 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center; 
+  margin-bottom: 30px;
+}
+.about .in-motion {
+  margin-bottom: 33px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 0.875;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about .at-mercellenie {
+  margin-bottom: 60px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'FontInter';
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 550px;
+  color: #f2f2f2;
+}
+
+
+.about .group-48 {
+  margin: 10px;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: 60px;
+  box-sizing: border-box;
+}
+.about .we-believe {
+  margin-bottom: 60px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'FontInter';
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 515px;
+  color: #f2f2f2;
+}
+.about .container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Make it responsive */
+  max-width: 1280px; /* Limit maximum width */
+  box-sizing: border-box;
+  margin: 0 auto; /* Center the container */
+}
+
+.about .image {
+  mix-blend-mode: luminosity;
+  background: linear-gradient(rgba(26, 26, 26, 0.17), rgba(26, 26, 26, 0.17)), url('assets/images/Image.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 249px;
+  translate: -50% 0;
+  width: 749px;
+  height: 536px;
+}
+.about .electrifying {
+  position: absolute;
+  left: 80px;
+  top: 207px;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about .the-thrill {
+  position: absolute;
+  left: 131px;
+  top: 296px;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about .of-riding {
+  position: absolute;
+  top: 601px;
+  right: 80px;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 0.885;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about .transforming-mobility-one-exhilarating-ride-at-atime {
+  position: absolute;
+  top: 501px;
+  right: 78px;
+  text-align: right;
+  overflow-wrap: break-word;
+  font-family: 'FontRegular';
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about {
+  background: #0e0e0e;
+  display: flex;
+  padding-top: 50px;
+  width: 100%; /* Set to 100% to avoid exceeding viewport */
+  max-width: 100%; /* Prevent any overflow */
+  box-sizing: border-box;
+  overflow-x: hidden; /* Hide any accidental horizontal overflow */
+}
+
+.about .power-style-efficiency {
+  display: flex;
+  align-items: center;
+  width: 80%; /* Set container width */
+  margin: 50px auto; /* Center the container */
+  box-sizing: border-box;
+}
+
+.about .power,
+.about .style,
+.about .efficiency {
+  font-family: 'FontRegular';
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFDD33; /* Yellow color */
+  text-transform: uppercase;
+}
+
+.about .separator {
+  width: 260px; /* Set a fixed width for the line */
+  height: 3px;
+  background-color: #FFDD33; /* Line between "POWER" and "STYLE" */
+  margin: 0 20px; /* Space around the line */
+}
+
+.about .space {
+  width: 215px; /* Creates space between "STYLE" and "EFFICIENCY" */
+}
+
+
+/*-----------------*/
+.passion-meets-innovation {
+  display: flex;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box;
+  margin: 0; /* Ensure no margin around the container */
+}
+
+.screenshot-image {
+  flex: 1.08; /* Increase flex-grow value to give it more width */
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Include padding/borders in width/height calculations */
+}
+
+.screenshot-image img {
+  width: 100%;
+  height: 100%; /* Ensure the image covers the entire div */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+.innovation-text {
+  flex: 1; /* Keep the width of the text section smaller */
+  height: 100vh; /* Full height */
+  background-color: #FFDD33; /* Yellow background */
+  color: #000;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Aligns h1 at the top and p at the bottom */
+  box-sizing: border-box;
+}
+
+.innovation-text h1 {
+  font-family: 'FontLight';
+  font-weight: 700;
+  font-size: 70px; /* Adjust the font size as needed */
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.innovation-text p {
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.4;
+  margin-top: 20px;
+  max-width: 600px; /* Ensures text is more readable */
+  align-self: flex-start; /* Align the paragraph at the bottom */
+}
+
+
+/*-----*/
+.about .why-choose-us {
+  display: flex;
+  color: #e4e4e4;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 40px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  margin-bottom: 170px; /* Increased margin-bottom to add more space below */
+}
+
+.about .why-text {
+  flex: 1;
+  padding-right: 50px;
+  max-width: 60%;
+}
+
+.about .section-number {
+  font-family: 'FontJetbrains';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFDD33;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.about .why-text h2 {
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 45px;
+  color: #FFFFFF;
+  line-height: 1.2;
+  max-width: 500px;
+}
+
+.about .why-icons {
+  flex: 1;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+  flex-direction: column;
+  gap: 40px; /* Increased gap between icon-item blocks */
+  max-width: 50%;
+  transform: translate(20px, 10px); /* Move the icons and text down and right */
+}
+
+.about .icon-item {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Increased space between icon and text */
+}
+
+.about .frame-49 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.about .vector {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.about .icon-text h3 {
+  font-family: 'FontLight';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 10px; /* Increased space between h3 and p */
+}
+
+.about .icon-text p {
+  font-family: 'FontLight';
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 300px;
+}
+
+.about .icon-text-growing-demand p {
+  font-family: 'FontLight';
+  font-weight: 300;
+  font-size: 19px;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 400px !important;
+}
+
+/*-------------------*/
+
+.image-text-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.mercelline-image {
+  width: 100%;
+  height: 100%;
+  object-fit:fill; /* Ensures the image covers the container */
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px; /* Adjust this to move text up or down */
+  left: 20px;   /* Adjust this to move text left or right */
+  color: white;
+  font-family: 'FontRegular'; /* Ensure this matches your existing font */
+  font-size: 35px; /* Adjust based on the text size in the image */
+  line-height: 1.4;
+  max-width: 650px;
+  padding-left: 40px; /* Adjust to ensure text wraps correctly within the image */
+}
+
+.overlay-text .highlight {
+  color: #FFDD33; /* Yellow highlight color */
+}
+
+
+.milestones-section {
+  width: 100%;
+  padding: 50px 20px;
+  background: #101010;
+  color: #e4e4e4;
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.milestone-number {
+  font-family: 'FontJetbrains';
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFDD33;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+
+.section-title h2 {
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.milestones {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Space between each milestone */
+}
+
+.milestone {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Space between year and text */
+}
+
+.year {
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFDD33;
+  min-width: 80px; /* Ensures alignment */
+}
+
+.milestone-text h3 {
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.milestone-text p {
+  font-family: 'FontLight';
+  font-weight: 300;
+  font-size: 18px;
+  color: #AAAAAA;
+  margin: 0;
+  max-width: 800px; /* Adjust as needed */
+}
+
+/*----------------------*/
+
+
+.milestones-section {
+  width: 100%;
+  padding: 60px 20px 80px 150px; /* Adjusted padding */
+  background: #101010;
+  color: #e4e4e4;
+  position: relative;
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+
+
+.section-title h2 {
+  font-family: 'FontRegular';
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 42px;
+  color: #FFFFFF;
+  line-height: 1.2;
+  max-width: 400px;
+  margin-bottom: 140px;
+}
+
+.milestones {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; /* Increased gap between milestone items */
+  position: relative;
+  padding-left: 140px;
+}
+
+.milestones::before {
+  content: '';
+  position: absolute;
+  left: 270px; /* Position of the vertical line */
+  top: 0;
+  bottom: -50px;
+  width: 0.8px; /* Thickness of the vertical line */
+  background-color: #757575; /* Line color */
+}
+
+.milestone {
+  display: flex;
+  align-items: flex-start; /* Align year and milestone text on the same line */
+  position: relative;
+}
+
+.year {
+  font-family: 'FontRegular';
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 27px;
+  color: #FFDD33;
+  min-width: 90px;
+  padding-right: 10px;
+  text-align: right; /* Align year text to the right */
+  position: relative;
+}
+
+.year::before {
+  content: '';
+  position: absolute;
+  margin-top: 12px;
+  top: 50%;
+  right: -30px; /* Position the horizontal line relative to the year */
+  width: 30px; /* Length of the horizontal line */
+  height: 1px; /* Thickness of the horizontal line */
+  background-color: #757575;
+  transform: translateY(-50%);
+}
+
+.milestone-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px; /* Add spacing between the year and milestone text */
+}
+
+.milestone-text h3 {
+  font-family: 'FontRegular';
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  color: #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.milestone-text p {
+  font-family: 'FontInterthin';
+  font-weight: 50;
+  font-size: 19px;
+  color: #e7e7e7;
+  margin: 0;
+  max-width: 708px;
+  line-height: 1.6;
+}
+
+/* Move the '2018 - 2020' milestone slightly left */
+.milestone-special {
+  transform: translateX(-40px); /* Move this section 30px to the left */
+}

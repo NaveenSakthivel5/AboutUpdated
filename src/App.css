@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'FontBold';
+    src: url('./Fonts/ClashDisplay-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FontExtralight';
+    src: url('./Fonts/ClashDisplay-Extralight.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Font 2 */
+  @font-face {
+    font-family: 'FontLight';
+    src: url('./Fonts/ClashDisplay-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Font 3 */
+  @font-face {
+    font-family: 'FontMedium';
+    src: url('./Fonts/ClashDisplay-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'FontRegular';
+    src: url('./Fonts/ClashDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'FontSemibold';
+    src: url('./Fonts/ClashDisplay-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'FontInter';
+    src: url('./Fonts/Inter_18pt-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'FontJetbrains';
+    src: url('./Fonts/JetBrainsMono-Medium.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'FontInterlight';
+    src: url('./Fonts/Inter_18pt-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'FontInterthin';
+    src: url('./Fonts/Inter_18pt-Thin.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
