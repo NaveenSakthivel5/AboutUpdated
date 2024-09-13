@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  height: 70vh;
+  box-sizing: border-box;
+}
+
+.first-page {
+  background-color: #ffffff;
+}
+
+.second-page {
+  background-color: #f0f0f0;
+}
+
+/* Columns for the first page */
+.column-left, .column-right, .column-center {
+  flex: 1;
+}
+
+.column-left, .column-right {
+  padding: 20px;
+}
+
+.column-center {
+  flex: 0.5; /* This adjusts the size of the center blank space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for text content */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Second page styling */
+.second-page .column-left {
+  flex: 0.5; /* Blank space on the left of the second page */
+}
+
+.second-page .column-right {
+  flex: 2;
+  padding: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}

@@ -56,7 +56,12 @@
     font-weight: normal;
     font-style: italic;
   }
-
+  @font-face {
+    font-family: 'FontJetbrainsReg';
+    src: url('./Fonts/JetBrainsMono-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
   @font-face {
     font-family: 'FontInterlight';
     src: url('./Fonts/Inter_18pt-Regular.ttf') format('opentype');

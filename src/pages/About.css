@@ -1,60 +1,12 @@
-.about .layer-1 {
-  max-width: 133px;
-  height: 30px;
-
-}
-.about-contact {
-  display: flex;
-  justify-content: center; /* Centers the content horizontally */
-  align-items: center;
-}
-
-.about-link, .contact-link {
-  position: relative;
-  text-decoration: none;
-  color: inherit;
-  margin: 0 20px; /* Adds space on both sides of the links */
-}
 
 .separator1 {
   margin: 0 30px; /* Adds extra space between the separator and links */
 }
 
-.about-link::after, .contact-link::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: currentColor;
-  bottom: 0;
-  left: 0;
-  transition: width 0.3s ease;
-}
-
-.about-link:hover::after, .contact-link:hover::after {
-  width: 100%;
-}
 
 
 
-.about .about-contact {
-  margin: 2px 0 4px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'FontRegular';
-  font-weight: 500;
-  font-size: 17px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-.about .container-6 {
-  margin: 0 82.3px 63px 87px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1284.7px;
-  box-sizing: border-box;
-}
+
 .about .rectangle-1577 {
   background: #333333;
   margin: 246.9px 0 82.3px 0px;
@@ -323,7 +275,7 @@
   height: 10px;
 }
 .about .group-18 {
-  margin: 350px auto 0; /* Center it horizontally and add some space above */
+  margin: 750px auto 0; /* Center it horizontally and add some space above */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -333,6 +285,7 @@
 }
 
 .about .container-1 {
+  border: none;
   margin-right: 12.2px;
   overflow-wrap: break-word;
   font-family: 'FontJetbrains';
@@ -350,7 +303,7 @@
   color: #FFDD33;
 }
 .about .group-49 {
-  margin: 90px 0 0 0 ;
+  margin: 40px 0 0 0 ;
   display: flex;
   flex-direction: row;
   width: 200px;
@@ -384,7 +337,7 @@
   margin-bottom: 60px;
   text-align: center;
   overflow-wrap: break-word;
-  font-family: 'FontInter';
+  font-family: 'FontInterthin';
   font-weight: 100;
   font-size: 18px;
   line-height: 1.4;
@@ -406,7 +359,7 @@
   margin-bottom: 60px;
   text-align: center;
   overflow-wrap: break-word;
-  font-family: 'FontInter';
+  font-family: 'FontInterthin';
   font-weight: 100;
   font-size: 18px;
   line-height: 1.4;
@@ -415,11 +368,12 @@
 }
 .about .container-2 {
   position: relative;
+  border:0px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; /* Make it responsive */
-  max-width: 1280px; /* Limit maximum width */
+  width: 100vw;  /* Limit maximum width */
   box-sizing: border-box;
   margin: 0 auto; /* Center the container */
 }
@@ -483,9 +437,8 @@
   color: #FFFFFF;
 }
 .about {
-  background: #0e0e0e;
+  background: #000000;
   display: flex;
-  padding-top: 50px;
   width: 100%; /* Set to 100% to avoid exceeding viewport */
   max-width: 100%; /* Prevent any overflow */
   box-sizing: border-box;
@@ -497,6 +450,7 @@
   align-items: center;
   width: 80%; /* Set container width */
   margin: 50px auto; /* Center the container */
+  margin-left: 200px !important;
   box-sizing: border-box;
 }
 
@@ -512,7 +466,7 @@
 
 .about .separator {
   width: 260px; /* Set a fixed width for the line */
-  height: 3px;
+  height: 1px;
   background-color: #FFDD33; /* Line between "POWER" and "STYLE" */
   margin: 0 20px; /* Space around the line */
 }
@@ -525,58 +479,62 @@
 /*-----------------*/
 .passion-meets-innovation {
   display: flex;
-  width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
   box-sizing: border-box;
-  margin: 0; /* Ensure no margin around the container */
+  margin: 0;
 }
 
 .screenshot-image {
-  flex: 1.08; /* Increase flex-grow value to give it more width */
-  height: 100vh; /* Full height */
+  flex: 1;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box; /* Include padding/borders in width/height calculations */
+  box-sizing: border-box;
 }
 
 .screenshot-image img {
   width: 100%;
-  height: 100%; /* Ensure the image covers the entire div */
-  object-fit: cover; /* Ensures the image covers the container without stretching */
+  height: auto;
+  object-fit: contain;
 }
 
 .innovation-text {
-  flex: 1; /* Keep the width of the text section smaller */
-  height: 100vh; /* Full height */
-  background-color: #FFDD33; /* Yellow background */
+  flex: 1;
+  width: 50%;
+  padding: 20px;
+  background-color: #FFDD33;
   color: #000;
-  padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Aligns h1 at the top and p at the bottom */
+  justify-content: space-between; /* This will place the h1 at the top and p at the bottom */
+  text-align: left;
   box-sizing: border-box;
 }
 
 .innovation-text h1 {
   font-family: 'FontLight';
   font-weight: 700;
-  font-size: 70px; /* Adjust the font size as needed */
-  line-height: 1.1;
+  font-size: 100px;
+  line-height: 1.2;
   text-transform: uppercase;
   margin: 0;
+  align-self: flex-start; /* Align the heading to the top left */
 }
 
 .innovation-text p {
   font-family: 'FontRegular';
   font-weight: 400;
-  font-size: 25px;
-  line-height: 1.4;
-  margin-top: 20px;
-  max-width: 600px; /* Ensures text is more readable */
-  align-self: flex-start; /* Align the paragraph at the bottom */
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0;
+  align-self: flex-start; /* Align the paragraph to the bottom left */
+  max-width: 100%;
 }
 
+/* Media queries for smaller screens */
 
 /*-----*/
 .about .why-choose-us {
@@ -710,6 +668,7 @@
 .milestones-section {
   width: 100%;
   padding: 50px 20px;
+  padding-left: 200px !important;
   background: #101010;
   color: #e4e4e4;
 }
@@ -879,4 +838,371 @@
 /* Move the '2018 - 2020' milestone slightly left */
 .milestone-special {
   transform: translateX(-40px); /* Move this section 30px to the left */
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+  .contact {
+    font-size: 90px;
+    margin-top: 80px;
+  }
+
+  .electrifying,
+  .the-thrill,
+  .of-riding {
+    font-size: 95px;
+  }
+
+  .transforming-mobility-one-exhilarating-ride-at-atime {
+    font-size: 17px;
+    right: 40px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 15px;
+    height: 15px;
+  }
+
+  .power-style-efficiency .power,
+  .power-style-efficiency .style,
+  .power-style-efficiency .efficiency {
+    font-size: 40px;
+  }
+
+  .separator {
+    width: 260px;
+  }
+
+  .image-text-container {
+    height: 90vh;
+  }
+
+  .mercelline-image {
+    object-fit: cover;
+  }
+
+  .milestone-text h3 {
+    font-size: 28px;
+  }
+
+  .milestones-section {
+    padding: 50px 50px;
+  }
+
+  .icon-item {
+    flex-direction: row;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .vector {
+    margin-left: 0px !important;
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 18px;
+  }
+}
+
+.bottom-background {
+  background: url('src/assets/image/Group34.png') no-repeat center bottom; /* Add your image URL */
+  background-size:cover; /* Make sure the image scales appropriately */
+  width: 100%; /* Span the entire width of the viewport */
+  height: 400px; /* Adjust this height based on the size of your image */
+  position:absolute; /* Use fixed positioning to keep it at the bottom */
+  bottom: 0;
+  left: 0;
+  z-index: 1; /* Ensure it stays behind other content */
+  pointer-events: none; /* Prevent interaction with the background */
+}
+
+@media (max-width: 425px) {
+  .contact {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .electrifying,
+  .the-thrill,
+  .of-riding {
+    font-size: 50px; /* Reduce font size */
+  }
+
+  .transforming-mobility-one-exhilarating-ride-at-atime {
+    font-size: 12px; /* Reduce text size */
+    right: 10px; /* Adjust position */
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 8px;
+    height: 8px;
+  }
+
+  .power-style-efficiency .power,
+  .power-style-efficiency .style,
+  .power-style-efficiency .efficiency {
+    font-size: 20px; /* Reduce text size */
+  }
+
+  .separator {
+    width: 100px; /* Reduce separator width */
+  }
+
+  .image-text-container {
+    height: 50vh; /* Adjust container height */
+  }
+
+  .mercelline-image {
+    object-fit: contain; /* Adjust image to fit */
+  }
+
+  .milestone-text h3 {
+    font-size: 18px; /* Reduce font size */
+  }
+
+  .milestones-section {
+    padding: 20px 10px; /* Reduce padding */
+  }
+
+  .icon-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px; /* Reduce gap between icon and text */
+  }
+
+  .vector {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 12px; /* Reduce font size */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contact {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .electrifying,
+  .the-thrill,
+  .of-riding {
+    font-size: 65px;
+  }
+
+  .transforming-mobility-one-exhilarating-ride-at-atime {
+    font-size: 15px;
+    right: 20px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 10px;
+    height: 10px;
+  }
+
+  .power-style-efficiency .power,
+  .power-style-efficiency .style,
+  .power-style-efficiency .efficiency {
+    font-size: 30px; /* Increase text size */
+  }
+
+  .separator {
+    width: 150px;
+  }
+
+  .image-text-container {
+    height: 70vh;
+  }
+
+  .mercelline-image {
+    object-fit: cover;
+  }
+
+  .milestone-text h3 {
+    font-size: 22px;
+  }
+
+  .milestones-section {
+    padding: 30px 20px;
+  }
+
+  .icon-item {
+    flex-direction: row;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .vector {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .contact {
+    font-size: 55px;
+    margin-top: 50px;
+  }
+
+  .electrifying,
+  .the-thrill,
+  .of-riding {
+    font-size: 80px;
+  }
+
+  .transforming-mobility-one-exhilarating-ride-at-atime {
+    font-size: 16px;
+    right: 30px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 12px;
+    height: 12px;
+  }
+
+  .power-style-efficiency .power,
+  .power-style-efficiency .style,
+  .power-style-efficiency .efficiency {
+    font-size: 35px;
+  }
+
+  .separator {
+    width: 200px;
+  }
+
+  .image-text-container {
+    height: 80vh;
+  }
+
+  .mercelline-image {
+    object-fit: cover;
+  }
+
+  .milestone-text h3 {
+    font-size: 24px;
+  }
+
+  .milestones-section {
+    padding: 40px 30px;
+  }
+
+  .icon-item {
+    flex-direction: row;
+    text-align: left;
+    gap: 25px;
+  }
+
+  .vector {
+    width: 55px;
+    height: 55px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 16px;
+  }
+}
+
+
+
+@media (min-width: 1440px) {
+  .contact {
+    font-size: 90px;
+    margin-top: 80px;
+  }
+
+  .electrifying,
+  .the-thrill,
+  .of-riding {
+    font-size: 95px;
+  }
+
+  .transforming-mobility-one-exhilarating-ride-at-atime {
+    font-size: 17px;
+    right: 40px;
+  }
+
+  .rectangle-1550,
+  .rectangle-1549,
+  .rectangle-1548 {
+    width: 15px;
+    height: 15px;
+  }
+
+  .power-style-efficiency .power,
+  .power-style-efficiency .style,
+  .power-style-efficiency .efficiency {
+    font-size: 40px;
+  }
+
+  .separator {
+    width: 260px;
+  }
+
+  .image-text-container {
+    height: 90vh;
+  }
+
+  .mercelline-image {
+    object-fit: cover;
+  }
+
+  .milestone-text h3 {
+    font-size: 28px;
+  }
+
+  .milestones-section {
+    padding: 50px 50px;
+  }
+
+  .icon-item {
+    flex-direction: row;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .vector {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer .mercellinie,
+  .footer .privacy-policy,
+  .footer .made-by-wings {
+    font-size: 18px;
+  }
 }
